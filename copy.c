@@ -13,6 +13,7 @@ int strcomp(char* str1,char* str2)
 }
 void main(int argc,char* argv[],char *env[])
 {
+printf("main invoked");
 	int fd1,ret1,fd2,ret2,n,ret,m;
 	char buf1[20],*cptr;
 	if(argc>=3){
